@@ -1,0 +1,145 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+
+
+:root{
+
+
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+body{
+    font-size: 15px;
+    font-family: "Big Shoulders";
+    font-weight: 700;
+    display: flex;
+    
+        justify-content: center;
+}
+.contenedor{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+}
+
+p{
+    color: white;
+    line-height: 150%;
+    letter-spacing:0.1em;
+    margin-bottom: 100px;
+}
+
+.btn-izquierdo{
+    color: var(--bright-orange);
+    background-color: white;
+    width: 80%;
+    padding-left: 20px ;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.btn-medio{
+    color: var(--dark-cyan);
+    background-color: white;
+    width: 80%;
+    padding-left: 20px ;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.btn-derecho{
+    color: var(--Very-dark-cyan);
+    background-color: white;
+    width: 80%;
+    padding-left: 20px ;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.div-izquierdo{
+    background-color: var(--bright-orange);
+    height: 500px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    border-radius: 10px 0 0 10px;
+}
+
+.div-medio{
+    background-color: var(--dark-cyan);
+    height: 500px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    
+}
+
+.div-derecho{
+    background-color: var(--Very-dark-cyan);
+    height: 500px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    border-radius: 0 10px 10px 0;
+}
+img{
+    height: 50px;
+    width: 75px;
+}
+
+@media (max-width: 375px) { 
+
+    .div-izquierdo{
+     
+        border-radius: 10px 10px 0 0;
+    }
+    
+        
+    .div-derecho{
+    
+        border-radius: 0 0 10px 10px ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
